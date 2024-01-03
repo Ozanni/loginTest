@@ -12,3 +12,9 @@ export interface IJwtToken {
     issuedAt: number;
     type: string;
   }
+
+// export interface IJwtToken {
+//     access_token: string;
+//     token_type: string;
+//     expires_in: number;
+// }

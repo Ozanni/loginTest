@@ -13,7 +13,7 @@ export type ConfigFormFieldsProps = {
 export const ConfigFormFields = (
   props: ConfigFormFieldsProps
 ) => {
-  const { control, errorMessage, disableIdField, datatypes = [] } = props;
+  const { control, errorMessage, disableIdField } = props;
   return (
     <Stack spacing={1} alignItems="center" width="100%">
       {errorMessage && (

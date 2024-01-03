@@ -1,4 +1,4 @@
-import { FC, useMemo } from "react";
+import { FC } from "react";
 import { TABLE_HOSPITAL } from "../../../../stores/table/tableInitialState";
 import { useSelector } from "react-redux";
 import { CloseableCollapsiblePanel } from "../../../../components/Surfaces/CollapsiblePanel";

@@ -1,5 +1,5 @@
 import { api } from "../../../lib/api";
-import { createPaginationParams, createSortParams, getManyResourcesRequestParams, transformListResponseGeneric, transformResponseGeneric } from "../../../lib/dataHelper/apiHelper";
+import { createPaginationParams, createSortParams, transformListResponseGeneric, transformResponseGeneric } from "../../../lib/dataHelper/apiHelper";
 import { GenericFilter, GetManyResourceQuery, GetManyResourceQueryResult, GetManyResourceWithHospitalID } from "../../../types/api";
 import { ConfigDTO, ConfigDTOCreate, ConfigDTODelete, ConfigDTOUpdate } from "../../../types/dto/config";
 import { RESOURCES } from "../../../types/resources";

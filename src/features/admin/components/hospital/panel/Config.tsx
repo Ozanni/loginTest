@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { skipToken } from '@reduxjs/toolkit/query';
+// import { skipToken } from '@reduxjs/toolkit/query';
 import { FC, useMemo } from 'react';
 import { TABLE_HOSPITAL_CONFIG } from '../../../../../stores/table/tableInitialState';
 import { MyTable, TableField } from '../../../../../components/Table/MyTable';

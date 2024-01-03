@@ -2,7 +2,7 @@ import { styled, Box, Typography, IconButton } from '@mui/material';
 import { DEFAULT_USERNAME } from '../../config';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
-import { useAuth } from '../../providers/auth/AuthProvider';
+// import { useAuth } from '../../providers/auth/AuthProvider';
 import { useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';

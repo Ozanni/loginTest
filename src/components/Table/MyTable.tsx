@@ -36,18 +36,18 @@ const StyledTableContainer = styled('div')`
   font-family: Kanit;
 `;
 
-const StyledLabel = styled('div')`
-  width: fit-content;
-  font-family: Kanit;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.15px;
-  text-transform: uppercase;
-  border-bottom: 1px solid #0E8A72;
-  margin-left: 8px;
-`;
+// const StyledLabel = styled('div')`
+//   width: fit-content;
+//   font-family: Kanit;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 175%;
+//   letter-spacing: 0.15px;
+//   text-transform: uppercase;
+//   border-bottom: 1px solid #0E8A72;
+//   margin-left: 8px;
+// `;
 
 const DEFAULT_TABLE_ID = 'noname-table';
 
@@ -89,7 +89,7 @@ type MyTableProps<T> = {
 export function MyTable<T>(props: MyTableProps<T>) {
   const {
     tableId = DEFAULT_TABLE_ID,
-    tableName,
+    // tableName,
     data = [],
     tableColumnsDescription,
     renderActionsButton,

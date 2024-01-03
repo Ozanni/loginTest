@@ -18,7 +18,7 @@ export type ConfigEditFormProps = {
 export const ConfigEditForm = (
   props: ConfigEditFormProps
 ) => {
-  const { onSuccessCallback, record } = props;
+  const { onSuccessCallback } = props;
   const register = useRegisterAdminFunctions();
   const [errorMessage, setErrorMessage] = useState<string>();
   const [editConfig] = useUpdateConfigMutation();

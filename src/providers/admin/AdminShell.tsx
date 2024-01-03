@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, Stack, StackProps, styled, Typography } from '@mui/material';
+import { Box, Divider, Stack, StackProps, styled, Typography } from '@mui/material';
 import { FC, ReactNode } from 'react';
 import { StyledTableContainerWithCollapsiblePanel } from '../../components/Table/MyTable.styles';
 

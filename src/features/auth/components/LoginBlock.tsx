@@ -37,7 +37,8 @@ export const LoginBlock = ({ onSuccess }: LoginBlockProps) => {
 
   const onSubmit = async (data: LoginCredentialsDTO) => {
     try {
-      const token = await login(data, false).unwrap();
+      const token = await login(data).unwrap();
+      console.log(token);
       dispatch(
         setToken(token)
       );

@@ -56,7 +56,7 @@ export const CollapsiblePanel: FC<CloseablePanelProps> = (props) => {
   }, [isOpen, onCollapse, onExpand, toggle]);
 
   const handleDragEnd = useCallback(
-    (e: MouseEvent, delta: IMousePosition) => {
+    (delta: IMousePosition) => {
       const newHeight = height - (delta.y ?? 0);
       dispatch(setCollapsiblePanelHeight(newHeight));
     },

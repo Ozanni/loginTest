@@ -50,11 +50,11 @@ export const ITechBaseQuery = (
             // const hospitalID = localStorage.getItem('hID');
             const hospitalID = '72131';
             const hospitalURL = `hospital/${hospitalID}`;
-            // const finalUrl = urlJoin(args.baseUrl, useAsync ? 'async' : '', useHospitalID ? hospitalURL : '', url);
+            const finalUrl = urlJoin(args.baseUrl, useAsync ? 'async' : '', useHospitalID ? hospitalURL : '', url);
             const finalHeaders = {...prepareHeaders(), ...headers};
             const result = await axios({
-                url: args.baseUrl,
-                // headers: finalHeaders,
+                url: finalUrl,
+                headers: finalHeaders,
                 ...axiosOptions
             });
             return { data: result.data };
